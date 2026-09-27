@@ -15,7 +15,7 @@ brew tap velqa/tap
 brew install --cask kuberniva
 ```
 
-Kuberniva is signed with an Apple Developer ID and notarized by Apple. Builds target Apple Silicon Macs.
+Kuberniva is signed with an Apple Developer ID and notarized by Apple, and runs natively on both Apple Silicon and Intel Macs.
 
 ## Update
 

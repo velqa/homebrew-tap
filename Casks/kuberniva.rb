@@ -1,8 +1,8 @@
 cask "kuberniva" do
-  version "0.4.1"
-  sha256 "25be9af8c9032c3a2feb4caabfd3977f227a6280203da58fb938ca40d0b17344"
+  version "0.4.2"
+  sha256 "0dc5838749716f4795d91265b57a802fd6702335d890867e6eb80e343d90a91e"
 
-  url "https://github.com/velqa/Kuberniva/releases/download/v#{version}/Kuberniva_#{version}_aarch64.dmg"
+  url "https://github.com/velqa/Kuberniva/releases/download/v#{version}/Kuberniva_#{version}_universal.dmg"
   name "Kuberniva"
   desc "Native desktop workspace for operating many Kubernetes clusters"
   homepage "https://github.com/velqa/Kuberniva"
@@ -13,7 +13,6 @@ cask "kuberniva" do
   end
 
   auto_updates true
-  depends_on arch: :arm64
   depends_on :macos
 
   app "Kuberniva.app"
