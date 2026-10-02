@@ -1,6 +1,6 @@
 cask "kuberniva" do
-  version "0.5.2"
-  sha256 "c341dc88ecf8c49ec9abfb03942f131231ec6338828d1264dc8915679e963bfc"
+  version "0.5.3"
+  sha256 "b6fec93b114e289157dd3ba4e771c1c55336380004f676cc8f6ff901d8be6e14"
 
   url "https://github.com/velqa/Kuberniva/releases/download/v#{version}/Kuberniva_#{version}_universal.dmg"
   name "Kuberniva"
